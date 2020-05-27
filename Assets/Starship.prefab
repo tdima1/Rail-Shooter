@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4657231092446358738}
   - component: {fileID: 4673267101897403380}
   - component: {fileID: 4683264907577034068}
+  - component: {fileID: 1163525273}
   m_Layer: 0
   m_Name: Starship
   m_TagString: Untagged
@@ -79,3 +80,24 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1163525273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4660231092789104408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07da5b6bc10cba4e921f8e78ab5bf09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shipStrafingSpeed: 10
+  _shipAscendingSpeed: 10
+  _shipMovementRangeHorizontal: 5
+  _shipMovementRangeVertical: 3
+  _pitchPositionFactor: -5
+  _pitchTiltFactor: -20
+  _yawPositionFactor: 5
+  _rollPositionFactor: 5
+  _rollTiltFactor: -30

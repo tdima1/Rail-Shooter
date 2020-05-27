@@ -341,3 +341,7 @@ healthchecksdb
 /Library
 /Temp
 /Assets/epyphany
+/Assembly-CSharp-firstpass.csproj
+/Assembly-CSharp-Editor-firstpass.csproj
+/Assets/SampleScenes
+/Assets/Standard Assets
