@@ -8,17 +8,17 @@ public class StarshipControls : MonoBehaviour
 {
    private float _horizontalInput;
    private float _verticalInput;
-   [Tooltip("In ms^-1")][SerializeField] private float _shipStrafingSpeed = 5f;
-   [Tooltip("In ms^-1")] [SerializeField] private float _shipAscendingSpeed = 5f;
-   [Tooltip("In meters")] [SerializeField] private float _shipMovementRangeHorizontal = 5f;
-   [Tooltip("In meters")] [SerializeField] private float _shipMovementRangeVertical = 3f;
+   [Tooltip("In ms^-1")][SerializeField] private float _shipStrafingSpeed = 8f;
+   [Tooltip("In ms^-1")] [SerializeField] private float _shipAscendingSpeed = 8f;
+   [Tooltip("In meters")] [SerializeField] private float _shipMovementRangeHorizontal = 7.5f;
+   [Tooltip("In meters")] [SerializeField] private float _shipMovementRangeVertical = 4.5f;
 
-   [SerializeField] private float _pitchPositionFactor = -5f;
+   [SerializeField] private float _pitchPositionFactor = -4f;
    [SerializeField] private float _pitchTiltFactor = -20f;
 
-   [SerializeField] private float _yawPositionFactor = 5f;
+   [SerializeField] private float _yawPositionFactor = 4f;
 
-   [SerializeField] private float _rollPositionFactor = 5f;
+   [SerializeField] private float _rollPositionFactor = 2.5f;
    [SerializeField] private float _rollTiltFactor = -30f;
 
    // Start is called before the first frame update
