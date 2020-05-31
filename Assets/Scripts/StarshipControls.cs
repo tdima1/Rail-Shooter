@@ -16,7 +16,7 @@ public class StarshipControls : MonoBehaviour
    [SerializeField] private float _pitchPositionFactor = -4f;
    [SerializeField] private float _pitchTiltFactor = -20f;
 
-   [SerializeField] private float _yawPositionFactor = 4f;
+   [SerializeField] private float _yawPositionFactor = 5f;
 
    [SerializeField] private float _rollPositionFactor = 2.5f;
    [SerializeField] private float _rollTiltFactor = -30f;
