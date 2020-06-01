@@ -4754,6 +4754,35 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!54 &1985092947992810130
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673733512218570370}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &3993375119110516762
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673733512218570370}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8120017, y: 0.5694971, z: 3.2518137}
+  m_Center: {x: -0.00000017881393, y: 0.000000044703484, z: 0}
 --- !u!1 &3993375119490555238
 GameObject:
   m_ObjectHideFlags: 0
@@ -4956,6 +4985,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910048383070e804d950bf45a4c27f11, type: 3}
+--- !u!1 &1673733512218570370 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4660231092789104408, guid: 910048383070e804d950bf45a4c27f11,
+    type: 3}
+  m_PrefabInstance: {fileID: 6311298715027546522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1673073788166851912 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4657231092446358738, guid: 910048383070e804d950bf45a4c27f11,
